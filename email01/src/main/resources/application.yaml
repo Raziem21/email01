@@ -1,0 +1,17 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: email
+    password: password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+mvc:
+path match:
+matching-strategy: ant_path_matcher
+server:
+port: 8080
